@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    >
+
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200sp"
+        android:gravity="center_horizontal">
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:text="REGISTER INFORMATION"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_column="0"
+                android:layout_gravity="start"
+
+                android:text="Nama Lengkap  :"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/namaLengkap"
+                android:layout_column="1"
+                android:layout_gravity="start"
+
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15sp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_column="0"
+                android:layout_gravity="start"
+
+                android:text="Tempat Lahir      :"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tempatLahir"
+                android:layout_column="1"
+                android:layout_gravity="start"
+
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15sp"
+            android:gravity="center_horizontal">
+
+            <TextView
+
+                android:layout_column="0"
+                android:layout_gravity="start"
+
+                android:text="Tanggal Lahir     :"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tglLahir"
+                android:layout_column="1"
+                android:layout_gravity="start"
+
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="60dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:text="Konfirmasi" />
+        </TableRow>
+    </TableLayout>
